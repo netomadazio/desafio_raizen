@@ -1,0 +1,45 @@
+Public Sub ExtractPivotTableData()
+
+    Dim objActiveBook As Workbook
+    Dim objSheet As Worksheet
+    Dim objPivotTable As PivotTable
+    Dim objTempSheet As Worksheet
+    Dim objTempPivot As PivotTable
+
+    If TypeName(Application.Selection) <> "Range" Then
+        Beep
+        Exit Sub
+    ElseIf WorksheetFunction.CountA(Cells) = 0 Then
+        Beep
+        Exit Sub
+    Else
+        Set objActiveBook = ActiveWorkbook
+    End If
+
+    With Application
+        .ScreenUpdating = False
+        .DisplayAlerts = False
+    End With
+    
+    num = 0
+    For Each objSheet In objActiveBook.Sheets
+        For Each objPivotTable In objSheet.PivotTables
+            With objActiveBook.Sheets.Add(, objSheet)
+                With objPivotTable.PivotCache.CreatePivotTable(.Range("A1"))
+                    .AddDataField .PivotFields(1)
+                End With
+                .Range("B2").ShowDetail = True
+                objActiveBook.Sheets(.Index - 1).Name = "PIVOT-TABLE-" & num
+                objActiveBook.Sheets(.Index - 1).Tab.Color = 255
+                .Delete
+            End With
+            num = num + 1
+        Next
+    Next
+
+    With Application
+        .ScreenUpdating = True
+        .DisplayAlerts = True
+    End With
+
+End Sub
