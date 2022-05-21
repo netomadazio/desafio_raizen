@@ -1,0 +1,28 @@
+[2022-05-19 03:23:43,686] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Teste_ETL_Raízen.nvalido manual__2022-05-19T03:19:54.300030+00:00 [queued]>
+[2022-05-19 03:23:43,721] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Teste_ETL_Raízen.nvalido manual__2022-05-19T03:19:54.300030+00:00 [queued]>
+[2022-05-19 03:23:43,722] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-19 03:23:43,723] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-05-19 03:23:43,723] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-19 03:23:43,782] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): nvalido> on 2022-05-19 03:19:54.300030+00:00
+[2022-05-19 03:23:43,801] {standard_task_runner.py:52} INFO - Started process 3338 to run task
+[2022-05-19 03:23:43,813] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Teste_ETL_Raízen', 'nvalido', 'manual__2022-05-19T03:19:54.300030+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Raizen.py', '--cfg-path', '/tmp/tmphmy6rfvc', '--error-file', '/tmp/tmputn4gg68']
+[2022-05-19 03:23:43,824] {standard_task_runner.py:80} INFO - Job 10: Subtask nvalido
+[2022-05-19 03:23:44,053] {task_command.py:369} INFO - Running <TaskInstance: Teste_ETL_Raízen.nvalido manual__2022-05-19T03:19:54.300030+00:00 [running]> on host c8caf9da75ac
+[2022-05-19 03:23:44,352] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Teste_ETL_Raízen
+AIRFLOW_CTX_TASK_ID=nvalido
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-19T03:19:54.300030+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-19T03:19:54.300030+00:00
+[2022-05-19 03:23:44,357] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-05-19 03:23:44,368] {subprocess.py:74} INFO - Running command: ['bash', '-c', "echo 'Quantidade nao Ok'"]
+[2022-05-19 03:23:44,428] {subprocess.py:85} INFO - Output:
+[2022-05-19 03:23:44,489] {subprocess.py:92} INFO - Quantidade nao Ok
+[2022-05-19 03:23:44,491] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-05-19 03:23:44,591] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Teste_ETL_Raízen, task_id=nvalido, execution_date=20220519T031954, start_date=20220519T032343, end_date=20220519T032344
+[2022-05-19 03:23:44,655] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-05-19 03:23:44,771] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
