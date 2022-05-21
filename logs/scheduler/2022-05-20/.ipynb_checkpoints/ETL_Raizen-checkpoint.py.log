@@ -1,0 +1,1106 @@
+[2022-05-20 19:03:32,974] {processor.py:153} INFO - Started process (PID=47) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:03:32,974] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:03:32,975] {logging_mixin.py:115} INFO - [2022-05-20 19:03:32,975] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:03:34,077] {logging_mixin.py:115} INFO - [2022-05-20 19:03:34,076] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:03:34,077] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:03:34,096] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 1.126 seconds
+[2022-05-20 19:04:04,482] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:04:04,482] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:04:04,483] {logging_mixin.py:115} INFO - [2022-05-20 19:04:04,483] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:04:05,059] {logging_mixin.py:115} INFO - [2022-05-20 19:04:05,058] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:04:05,059] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:04:05,079] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.599 seconds
+[2022-05-20 19:04:35,327] {processor.py:153} INFO - Started process (PID=168) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:04:35,328] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:04:35,328] {logging_mixin.py:115} INFO - [2022-05-20 19:04:35,328] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:04:35,730] {logging_mixin.py:115} INFO - [2022-05-20 19:04:35,729] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:04:35,730] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:04:35,748] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.423 seconds
+[2022-05-20 19:05:05,925] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:05:05,926] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:05:05,928] {logging_mixin.py:115} INFO - [2022-05-20 19:05:05,928] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:05:06,282] {logging_mixin.py:115} INFO - [2022-05-20 19:05:06,281] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:05:06,282] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:05:06,295] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.377 seconds
+[2022-05-20 19:05:37,288] {processor.py:153} INFO - Started process (PID=297) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:05:37,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:05:37,291] {logging_mixin.py:115} INFO - [2022-05-20 19:05:37,291] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:05:37,654] {logging_mixin.py:115} INFO - [2022-05-20 19:05:37,654] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:05:37,654] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:05:37,668] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.387 seconds
+[2022-05-20 19:06:07,922] {processor.py:153} INFO - Started process (PID=353) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:06:07,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:06:07,923] {logging_mixin.py:115} INFO - [2022-05-20 19:06:07,923] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:06:08,240] {logging_mixin.py:115} INFO - [2022-05-20 19:06:08,239] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:06:08,240] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:06:08,254] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.334 seconds
+[2022-05-20 19:06:38,332] {processor.py:153} INFO - Started process (PID=418) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:06:38,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:06:38,336] {logging_mixin.py:115} INFO - [2022-05-20 19:06:38,335] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:06:38,679] {logging_mixin.py:115} INFO - [2022-05-20 19:06:38,679] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:06:38,679] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:06:38,701] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.372 seconds
+[2022-05-20 19:07:08,908] {processor.py:153} INFO - Started process (PID=482) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:07:08,908] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:07:08,909] {logging_mixin.py:115} INFO - [2022-05-20 19:07:08,909] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:07:09,220] {logging_mixin.py:115} INFO - [2022-05-20 19:07:09,220] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:07:09,220] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:07:09,241] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.336 seconds
+[2022-05-20 19:07:39,298] {processor.py:153} INFO - Started process (PID=538) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:07:39,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:07:39,302] {logging_mixin.py:115} INFO - [2022-05-20 19:07:39,301] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:07:39,639] {logging_mixin.py:115} INFO - [2022-05-20 19:07:39,638] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:07:39,639] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:07:39,653] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.359 seconds
+[2022-05-20 19:08:09,887] {processor.py:153} INFO - Started process (PID=603) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:08:09,891] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:08:09,893] {logging_mixin.py:115} INFO - [2022-05-20 19:08:09,893] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:08:10,223] {logging_mixin.py:115} INFO - [2022-05-20 19:08:10,222] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:08:10,223] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:08:10,236] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.352 seconds
+[2022-05-20 19:08:40,307] {processor.py:153} INFO - Started process (PID=669) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:08:40,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:08:40,307] {logging_mixin.py:115} INFO - [2022-05-20 19:08:40,307] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:08:40,619] {logging_mixin.py:115} INFO - [2022-05-20 19:08:40,618] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:08:40,619] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:08:40,640] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.335 seconds
+[2022-05-20 19:09:11,486] {processor.py:153} INFO - Started process (PID=725) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:09:11,487] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:09:11,487] {logging_mixin.py:115} INFO - [2022-05-20 19:09:11,487] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:09:11,844] {logging_mixin.py:115} INFO - [2022-05-20 19:09:11,843] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:09:11,844] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:09:11,860] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.376 seconds
+[2022-05-20 19:09:42,245] {processor.py:153} INFO - Started process (PID=790) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:09:42,249] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:09:42,249] {logging_mixin.py:115} INFO - [2022-05-20 19:09:42,249] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:09:42,587] {logging_mixin.py:115} INFO - [2022-05-20 19:09:42,586] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:09:42,587] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:09:42,610] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.368 seconds
+[2022-05-20 19:10:12,991] {processor.py:153} INFO - Started process (PID=855) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:10:12,994] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:10:12,995] {logging_mixin.py:115} INFO - [2022-05-20 19:10:12,995] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:10:13,331] {logging_mixin.py:115} INFO - [2022-05-20 19:10:13,331] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:10:13,332] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:10:13,353] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.366 seconds
+[2022-05-20 19:10:43,901] {processor.py:153} INFO - Started process (PID=920) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:10:43,905] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:10:43,905] {logging_mixin.py:115} INFO - [2022-05-20 19:10:43,905] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:10:44,487] {logging_mixin.py:115} INFO - [2022-05-20 19:10:44,486] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:10:44,487] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:10:44,502] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.603 seconds
+[2022-05-20 19:11:15,291] {processor.py:153} INFO - Started process (PID=976) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:11:15,297] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:11:15,298] {logging_mixin.py:115} INFO - [2022-05-20 19:11:15,298] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:11:15,651] {logging_mixin.py:115} INFO - [2022-05-20 19:11:15,650] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:11:15,651] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:11:15,665] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.376 seconds
+[2022-05-20 19:11:45,759] {processor.py:153} INFO - Started process (PID=1041) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:11:45,764] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:11:45,764] {logging_mixin.py:115} INFO - [2022-05-20 19:11:45,764] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:11:46,093] {logging_mixin.py:115} INFO - [2022-05-20 19:11:46,093] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:11:46,094] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:11:46,107] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.350 seconds
+[2022-05-20 19:12:16,209] {processor.py:153} INFO - Started process (PID=1106) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:12:16,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:12:16,215] {logging_mixin.py:115} INFO - [2022-05-20 19:12:16,215] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:12:16,561] {logging_mixin.py:115} INFO - [2022-05-20 19:12:16,560] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:12:16,561] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:12:16,576] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.369 seconds
+[2022-05-20 19:12:46,608] {processor.py:153} INFO - Started process (PID=1162) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:12:46,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:12:46,612] {logging_mixin.py:115} INFO - [2022-05-20 19:12:46,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:12:47,028] {logging_mixin.py:115} INFO - [2022-05-20 19:12:47,027] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:12:47,028] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:12:47,042] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.437 seconds
+[2022-05-20 19:13:17,789] {processor.py:153} INFO - Started process (PID=1228) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:13:17,793] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:13:17,794] {logging_mixin.py:115} INFO - [2022-05-20 19:13:17,794] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:13:18,135] {logging_mixin.py:115} INFO - [2022-05-20 19:13:18,135] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:13:18,136] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:13:18,154] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.368 seconds
+[2022-05-20 19:13:48,866] {processor.py:153} INFO - Started process (PID=1293) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:13:48,870] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:13:48,871] {logging_mixin.py:115} INFO - [2022-05-20 19:13:48,871] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:13:49,229] {logging_mixin.py:115} INFO - [2022-05-20 19:13:49,229] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:13:49,230] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:13:49,243] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.380 seconds
+[2022-05-20 19:14:20,191] {processor.py:153} INFO - Started process (PID=1358) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:14:20,192] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:14:20,192] {logging_mixin.py:115} INFO - [2022-05-20 19:14:20,192] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:14:20,533] {logging_mixin.py:115} INFO - [2022-05-20 19:14:20,532] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:14:20,533] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:14:20,549] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.360 seconds
+[2022-05-20 19:14:51,395] {processor.py:153} INFO - Started process (PID=1414) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:14:51,398] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:14:51,399] {logging_mixin.py:115} INFO - [2022-05-20 19:14:51,399] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:14:51,745] {logging_mixin.py:115} INFO - [2022-05-20 19:14:51,744] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:14:51,745] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:14:51,766] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.374 seconds
+[2022-05-20 19:15:22,392] {processor.py:153} INFO - Started process (PID=1478) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:15:22,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:15:22,397] {logging_mixin.py:115} INFO - [2022-05-20 19:15:22,397] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:15:22,730] {logging_mixin.py:115} INFO - [2022-05-20 19:15:22,729] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:15:22,730] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:15:22,750] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.360 seconds
+[2022-05-20 19:15:53,216] {processor.py:153} INFO - Started process (PID=1542) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:15:53,219] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:15:53,220] {logging_mixin.py:115} INFO - [2022-05-20 19:15:53,219] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:15:53,594] {logging_mixin.py:115} INFO - [2022-05-20 19:15:53,593] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:15:53,594] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:15:53,611] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.399 seconds
+[2022-05-20 19:16:24,383] {processor.py:153} INFO - Started process (PID=1606) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:16:24,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:16:24,383] {logging_mixin.py:115} INFO - [2022-05-20 19:16:24,383] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:16:24,788] {logging_mixin.py:115} INFO - [2022-05-20 19:16:24,787] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:16:24,788] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:16:24,803] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.422 seconds
+[2022-05-20 19:16:54,932] {processor.py:153} INFO - Started process (PID=1664) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:16:54,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:16:54,933] {logging_mixin.py:115} INFO - [2022-05-20 19:16:54,933] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:16:55,254] {logging_mixin.py:115} INFO - [2022-05-20 19:16:55,253] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:16:55,254] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:16:55,274] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.344 seconds
+[2022-05-20 19:17:25,384] {processor.py:153} INFO - Started process (PID=1730) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:17:25,387] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:17:25,387] {logging_mixin.py:115} INFO - [2022-05-20 19:17:25,387] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:17:25,714] {logging_mixin.py:115} INFO - [2022-05-20 19:17:25,714] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:17:25,714] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:17:25,735] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.354 seconds
+[2022-05-20 19:17:56,546] {processor.py:153} INFO - Started process (PID=1795) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:17:56,546] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:17:56,547] {logging_mixin.py:115} INFO - [2022-05-20 19:17:56,547] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:17:56,868] {logging_mixin.py:115} INFO - [2022-05-20 19:17:56,867] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:17:56,868] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:17:56,890] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.346 seconds
+[2022-05-20 19:18:27,463] {processor.py:153} INFO - Started process (PID=1851) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:18:27,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:18:27,466] {logging_mixin.py:115} INFO - [2022-05-20 19:18:27,465] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:18:27,836] {logging_mixin.py:115} INFO - [2022-05-20 19:18:27,835] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:18:27,836] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:18:27,849] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.395 seconds
+[2022-05-20 19:18:58,276] {processor.py:153} INFO - Started process (PID=1915) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:18:58,277] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:18:58,278] {logging_mixin.py:115} INFO - [2022-05-20 19:18:58,278] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:18:58,782] {logging_mixin.py:115} INFO - [2022-05-20 19:18:58,781] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:18:58,783] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:18:58,801] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.529 seconds
+[2022-05-20 19:19:29,295] {processor.py:153} INFO - Started process (PID=1980) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:19:29,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:19:29,296] {logging_mixin.py:115} INFO - [2022-05-20 19:19:29,295] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:19:29,678] {logging_mixin.py:115} INFO - [2022-05-20 19:19:29,677] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:19:29,678] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:19:29,692] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.400 seconds
+[2022-05-20 19:20:00,543] {processor.py:153} INFO - Started process (PID=2036) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:20:00,546] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:20:00,547] {logging_mixin.py:115} INFO - [2022-05-20 19:20:00,547] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:20:00,886] {logging_mixin.py:115} INFO - [2022-05-20 19:20:00,885] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:20:00,886] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:20:00,907] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.367 seconds
+[2022-05-20 19:20:31,706] {processor.py:153} INFO - Started process (PID=2101) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:20:31,711] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:20:31,711] {logging_mixin.py:115} INFO - [2022-05-20 19:20:31,711] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:20:32,018] {logging_mixin.py:115} INFO - [2022-05-20 19:20:32,017] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:20:32,018] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:20:32,039] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.334 seconds
+[2022-05-20 19:21:02,494] {processor.py:153} INFO - Started process (PID=2165) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:21:02,495] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:21:02,495] {logging_mixin.py:115} INFO - [2022-05-20 19:21:02,495] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:21:02,811] {logging_mixin.py:115} INFO - [2022-05-20 19:21:02,810] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:21:02,811] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:21:02,832] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.340 seconds
+[2022-05-20 19:21:33,592] {processor.py:153} INFO - Started process (PID=2230) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:21:33,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:21:33,597] {logging_mixin.py:115} INFO - [2022-05-20 19:21:33,597] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:21:33,919] {logging_mixin.py:115} INFO - [2022-05-20 19:21:33,918] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:21:33,919] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:21:33,939] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.349 seconds
+[2022-05-20 19:22:04,012] {processor.py:153} INFO - Started process (PID=2286) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:22:04,012] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:22:04,012] {logging_mixin.py:115} INFO - [2022-05-20 19:22:04,012] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:22:04,321] {logging_mixin.py:115} INFO - [2022-05-20 19:22:04,320] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:22:04,321] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:22:04,344] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.335 seconds
+[2022-05-20 19:22:35,266] {processor.py:153} INFO - Started process (PID=2350) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:22:35,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:22:35,272] {logging_mixin.py:115} INFO - [2022-05-20 19:22:35,272] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:22:35,609] {logging_mixin.py:115} INFO - [2022-05-20 19:22:35,609] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:22:35,610] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:22:35,624] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.360 seconds
+[2022-05-20 19:23:05,683] {processor.py:153} INFO - Started process (PID=2415) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:23:05,684] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:23:05,684] {logging_mixin.py:115} INFO - [2022-05-20 19:23:05,684] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:23:06,018] {logging_mixin.py:115} INFO - [2022-05-20 19:23:06,017] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:23:06,018] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:23:06,030] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.349 seconds
+[2022-05-20 19:23:36,106] {processor.py:153} INFO - Started process (PID=2471) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:23:36,107] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:23:36,107] {logging_mixin.py:115} INFO - [2022-05-20 19:23:36,107] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:23:36,455] {logging_mixin.py:115} INFO - [2022-05-20 19:23:36,454] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:23:36,455] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:23:36,472] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.369 seconds
+[2022-05-20 19:24:06,511] {processor.py:153} INFO - Started process (PID=2535) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:24:06,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:24:06,519] {logging_mixin.py:115} INFO - [2022-05-20 19:24:06,519] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:24:06,851] {logging_mixin.py:115} INFO - [2022-05-20 19:24:06,850] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:24:06,851] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:24:06,864] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.355 seconds
+[2022-05-20 19:24:36,887] {processor.py:153} INFO - Started process (PID=2600) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:24:36,887] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:24:36,888] {logging_mixin.py:115} INFO - [2022-05-20 19:24:36,888] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:24:37,201] {logging_mixin.py:115} INFO - [2022-05-20 19:24:37,200] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:24:37,201] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:24:37,221] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.337 seconds
+[2022-05-20 19:25:07,591] {processor.py:153} INFO - Started process (PID=2656) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:25:07,592] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:25:07,592] {logging_mixin.py:115} INFO - [2022-05-20 19:25:07,592] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:25:07,917] {logging_mixin.py:115} INFO - [2022-05-20 19:25:07,917] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:25:07,918] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:25:07,935] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.346 seconds
+[2022-05-20 19:25:37,990] {processor.py:153} INFO - Started process (PID=2721) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:25:37,994] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:25:37,995] {logging_mixin.py:115} INFO - [2022-05-20 19:25:37,995] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:25:38,317] {logging_mixin.py:115} INFO - [2022-05-20 19:25:38,317] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:25:38,317] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:25:38,338] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.350 seconds
+[2022-05-20 19:26:08,928] {processor.py:153} INFO - Started process (PID=2786) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:26:08,933] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:26:08,935] {logging_mixin.py:115} INFO - [2022-05-20 19:26:08,935] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:26:09,276] {logging_mixin.py:115} INFO - [2022-05-20 19:26:09,276] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:26:09,277] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:26:09,297] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.371 seconds
+[2022-05-20 19:26:39,993] {processor.py:153} INFO - Started process (PID=2852) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:26:39,993] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:26:39,994] {logging_mixin.py:115} INFO - [2022-05-20 19:26:39,994] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:26:40,320] {logging_mixin.py:115} INFO - [2022-05-20 19:26:40,319] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:26:40,320] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:26:40,341] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.352 seconds
+[2022-05-20 19:27:11,016] {processor.py:153} INFO - Started process (PID=2908) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:27:11,017] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:27:11,017] {logging_mixin.py:115} INFO - [2022-05-20 19:27:11,017] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:27:11,322] {logging_mixin.py:115} INFO - [2022-05-20 19:27:11,321] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:27:11,322] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:27:11,345] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.331 seconds
+[2022-05-20 19:27:42,143] {processor.py:153} INFO - Started process (PID=2973) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:27:42,143] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:27:42,143] {logging_mixin.py:115} INFO - [2022-05-20 19:27:42,143] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:27:42,461] {logging_mixin.py:115} INFO - [2022-05-20 19:27:42,460] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:27:42,461] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:27:42,474] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.333 seconds
+[2022-05-20 19:28:13,478] {processor.py:153} INFO - Started process (PID=3038) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:28:13,478] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:28:13,478] {logging_mixin.py:115} INFO - [2022-05-20 19:28:13,478] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:28:13,801] {logging_mixin.py:115} INFO - [2022-05-20 19:28:13,801] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:28:13,801] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:28:13,823] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.348 seconds
+[2022-05-20 19:28:44,779] {processor.py:153} INFO - Started process (PID=3104) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:28:44,783] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:28:44,783] {logging_mixin.py:115} INFO - [2022-05-20 19:28:44,783] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:28:45,108] {logging_mixin.py:115} INFO - [2022-05-20 19:28:45,108] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:28:45,108] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:28:45,122] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.345 seconds
+[2022-05-20 19:29:15,594] {processor.py:153} INFO - Started process (PID=3160) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:29:15,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:29:15,598] {logging_mixin.py:115} INFO - [2022-05-20 19:29:15,598] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:29:15,921] {logging_mixin.py:115} INFO - [2022-05-20 19:29:15,921] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:29:15,922] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:29:15,937] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.346 seconds
+[2022-05-20 19:29:46,757] {processor.py:153} INFO - Started process (PID=3225) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:29:46,761] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:29:46,761] {logging_mixin.py:115} INFO - [2022-05-20 19:29:46,761] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:29:47,120] {logging_mixin.py:115} INFO - [2022-05-20 19:29:47,120] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:29:47,120] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:29:47,141] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.387 seconds
+[2022-05-20 19:30:17,631] {processor.py:153} INFO - Started process (PID=3290) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:30:17,634] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:30:17,635] {logging_mixin.py:115} INFO - [2022-05-20 19:30:17,635] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:30:17,989] {logging_mixin.py:115} INFO - [2022-05-20 19:30:17,988] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:30:17,989] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:30:18,003] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.375 seconds
+[2022-05-20 19:30:48,708] {processor.py:153} INFO - Started process (PID=3355) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:30:48,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:30:48,711] {logging_mixin.py:115} INFO - [2022-05-20 19:30:48,711] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:30:49,053] {logging_mixin.py:115} INFO - [2022-05-20 19:30:49,052] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:30:49,053] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:30:49,067] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.363 seconds
+[2022-05-20 19:31:19,648] {processor.py:153} INFO - Started process (PID=3411) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:31:19,652] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:31:19,652] {logging_mixin.py:115} INFO - [2022-05-20 19:31:19,652] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:31:19,961] {logging_mixin.py:115} INFO - [2022-05-20 19:31:19,960] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:31:19,961] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:31:19,982] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.337 seconds
+[2022-05-20 19:31:50,644] {processor.py:153} INFO - Started process (PID=3475) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:31:50,649] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:31:50,650] {logging_mixin.py:115} INFO - [2022-05-20 19:31:50,650] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:31:50,985] {logging_mixin.py:115} INFO - [2022-05-20 19:31:50,984] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:31:50,985] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:31:51,003] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.361 seconds
+[2022-05-20 19:32:21,436] {processor.py:153} INFO - Started process (PID=3540) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:32:21,440] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:32:21,440] {logging_mixin.py:115} INFO - [2022-05-20 19:32:21,440] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:32:21,773] {logging_mixin.py:115} INFO - [2022-05-20 19:32:21,773] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:32:21,773] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:32:21,798] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.364 seconds
+[2022-05-20 19:32:52,264] {processor.py:153} INFO - Started process (PID=3605) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:32:52,268] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:32:52,268] {logging_mixin.py:115} INFO - [2022-05-20 19:32:52,268] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:32:52,589] {logging_mixin.py:115} INFO - [2022-05-20 19:32:52,589] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:32:52,590] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:32:52,603] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.342 seconds
+[2022-05-20 19:33:23,253] {processor.py:153} INFO - Started process (PID=3661) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:33:23,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:33:23,257] {logging_mixin.py:115} INFO - [2022-05-20 19:33:23,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:33:23,589] {logging_mixin.py:115} INFO - [2022-05-20 19:33:23,589] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:33:23,590] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:33:23,610] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.359 seconds
+[2022-05-20 19:33:53,812] {processor.py:153} INFO - Started process (PID=3726) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:33:53,816] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:33:53,816] {logging_mixin.py:115} INFO - [2022-05-20 19:33:53,816] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:33:54,042] {logging_mixin.py:115} INFO - [2022-05-20 19:33:54,041] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:33:54,042] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:33:54,068] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.258 seconds
+[2022-05-20 19:34:24,799] {processor.py:153} INFO - Started process (PID=3792) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:34:24,804] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:34:24,805] {logging_mixin.py:115} INFO - [2022-05-20 19:34:24,805] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:34:25,054] {logging_mixin.py:115} INFO - [2022-05-20 19:34:25,053] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:34:25,054] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:34:25,080] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.283 seconds
+[2022-05-20 19:34:55,940] {processor.py:153} INFO - Started process (PID=3848) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:34:55,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:34:55,942] {logging_mixin.py:115} INFO - [2022-05-20 19:34:55,942] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:34:56,179] {logging_mixin.py:115} INFO - [2022-05-20 19:34:56,178] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:34:56,179] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:34:56,198] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.261 seconds
+[2022-05-20 19:35:26,865] {processor.py:153} INFO - Started process (PID=3913) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:35:26,865] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:35:26,865] {logging_mixin.py:115} INFO - [2022-05-20 19:35:26,865] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:35:27,073] {logging_mixin.py:115} INFO - [2022-05-20 19:35:27,072] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:35:27,074] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:35:27,091] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.229 seconds
+[2022-05-20 19:35:57,679] {processor.py:153} INFO - Started process (PID=3977) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:35:57,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:35:57,684] {logging_mixin.py:115} INFO - [2022-05-20 19:35:57,684] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:35:57,896] {logging_mixin.py:115} INFO - [2022-05-20 19:35:57,895] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:35:57,896] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:35:57,919] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.242 seconds
+[2022-05-20 19:36:28,582] {processor.py:153} INFO - Started process (PID=4042) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:36:28,586] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:36:28,586] {logging_mixin.py:115} INFO - [2022-05-20 19:36:28,586] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:36:28,831] {logging_mixin.py:115} INFO - [2022-05-20 19:36:28,830] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:36:28,831] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:36:28,848] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.268 seconds
+[2022-05-20 19:36:59,397] {processor.py:153} INFO - Started process (PID=4098) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:36:59,400] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:36:59,400] {logging_mixin.py:115} INFO - [2022-05-20 19:36:59,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:36:59,634] {logging_mixin.py:115} INFO - [2022-05-20 19:36:59,633] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:36:59,634] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:36:59,657] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.263 seconds
+[2022-05-20 19:37:30,307] {processor.py:153} INFO - Started process (PID=4162) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:37:30,308] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:37:30,308] {logging_mixin.py:115} INFO - [2022-05-20 19:37:30,308] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:37:30,516] {logging_mixin.py:115} INFO - [2022-05-20 19:37:30,515] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:37:30,516] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:37:30,531] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.226 seconds
+[2022-05-20 19:38:01,084] {processor.py:153} INFO - Started process (PID=4227) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:38:01,085] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:38:01,085] {logging_mixin.py:115} INFO - [2022-05-20 19:38:01,085] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:38:01,309] {logging_mixin.py:115} INFO - [2022-05-20 19:38:01,308] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:38:01,309] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:38:01,329] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.248 seconds
+[2022-05-20 19:38:31,952] {processor.py:153} INFO - Started process (PID=4289) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:38:31,956] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:38:31,956] {logging_mixin.py:115} INFO - [2022-05-20 19:38:31,956] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:38:32,183] {logging_mixin.py:115} INFO - [2022-05-20 19:38:32,182] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:38:32,183] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:38:32,206] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.256 seconds
+[2022-05-20 19:39:02,807] {processor.py:153} INFO - Started process (PID=4348) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:39:02,811] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:39:02,811] {logging_mixin.py:115} INFO - [2022-05-20 19:39:02,811] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:39:03,038] {logging_mixin.py:115} INFO - [2022-05-20 19:39:03,037] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:39:03,038] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:39:03,062] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.257 seconds
+[2022-05-20 19:39:33,626] {processor.py:153} INFO - Started process (PID=4413) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:39:33,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:39:33,629] {logging_mixin.py:115} INFO - [2022-05-20 19:39:33,629] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:39:33,880] {logging_mixin.py:115} INFO - [2022-05-20 19:39:33,879] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:39:33,880] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:39:33,896] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.273 seconds
+[2022-05-20 19:40:04,446] {processor.py:153} INFO - Started process (PID=4478) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:40:04,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:40:04,451] {logging_mixin.py:115} INFO - [2022-05-20 19:40:04,451] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:40:04,677] {logging_mixin.py:115} INFO - [2022-05-20 19:40:04,676] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:40:04,678] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:40:04,700] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.256 seconds
+[2022-05-20 19:40:35,304] {processor.py:153} INFO - Started process (PID=4534) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:40:35,308] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:40:35,308] {logging_mixin.py:115} INFO - [2022-05-20 19:40:35,308] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:40:35,536] {logging_mixin.py:115} INFO - [2022-05-20 19:40:35,535] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:40:35,536] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:40:35,553] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.251 seconds
+[2022-05-20 19:41:06,134] {processor.py:153} INFO - Started process (PID=4599) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:41:06,138] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:41:06,139] {logging_mixin.py:115} INFO - [2022-05-20 19:41:06,138] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:41:06,367] {logging_mixin.py:115} INFO - [2022-05-20 19:41:06,366] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:41:06,367] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:41:06,389] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.257 seconds
+[2022-05-20 19:41:37,143] {processor.py:153} INFO - Started process (PID=4664) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:41:37,144] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:41:37,144] {logging_mixin.py:115} INFO - [2022-05-20 19:41:37,144] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:41:37,350] {logging_mixin.py:115} INFO - [2022-05-20 19:41:37,349] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:41:37,350] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:41:37,372] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.231 seconds
+[2022-05-20 19:42:07,952] {processor.py:153} INFO - Started process (PID=4729) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:42:07,956] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:42:07,956] {logging_mixin.py:115} INFO - [2022-05-20 19:42:07,956] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:42:08,195] {logging_mixin.py:115} INFO - [2022-05-20 19:42:08,194] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:42:08,195] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:42:08,218] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.268 seconds
+[2022-05-20 19:42:38,756] {processor.py:153} INFO - Started process (PID=4785) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:42:38,760] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:42:38,760] {logging_mixin.py:115} INFO - [2022-05-20 19:42:38,760] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:42:38,975] {logging_mixin.py:115} INFO - [2022-05-20 19:42:38,974] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:42:38,975] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:42:38,990] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.236 seconds
+[2022-05-20 19:43:09,785] {processor.py:153} INFO - Started process (PID=4851) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:43:09,788] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:43:09,789] {logging_mixin.py:115} INFO - [2022-05-20 19:43:09,789] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:43:10,044] {logging_mixin.py:115} INFO - [2022-05-20 19:43:10,043] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:43:10,044] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:43:10,061] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.280 seconds
+[2022-05-20 19:43:40,618] {processor.py:153} INFO - Started process (PID=4916) to work on /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:43:40,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py for tasks to queue
+[2022-05-20 19:43:40,618] {logging_mixin.py:115} INFO - [2022-05-20 19:43:40,618] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:43:40,820] {logging_mixin.py:115} INFO - [2022-05-20 19:43:40,819] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py", line 107, in <module>
+    with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
+NameError: name 'datetime' is not defined
+[2022-05-20 19:43:40,820] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py
+[2022-05-20 19:43:40,842] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/ETL_Raizen-checkpoint.py took 0.227 seconds
