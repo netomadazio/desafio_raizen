@@ -1,0 +1,34 @@
+[2022-05-22 02:23:29,109] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Teste_ETL_Raízen.download_file_xls manual__2022-05-22T02:23:27.159628+00:00 [queued]>
+[2022-05-22 02:23:29,133] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Teste_ETL_Raízen.download_file_xls manual__2022-05-22T02:23:27.159628+00:00 [queued]>
+[2022-05-22 02:23:29,133] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 02:23:29,133] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-05-22 02:23:29,133] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 02:23:29,182] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): download_file_xls> on 2022-05-22 02:23:27.159628+00:00
+[2022-05-22 02:23:29,191] {standard_task_runner.py:52} INFO - Started process 161 to run task
+[2022-05-22 02:23:29,201] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Teste_ETL_Raízen', 'download_file_xls', 'manual__2022-05-22T02:23:27.159628+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Raizen.py', '--cfg-path', '/tmp/tmpdvcrg4fs', '--error-file', '/tmp/tmpfecjuvxw']
+[2022-05-22 02:23:29,202] {standard_task_runner.py:80} INFO - Job 29: Subtask download_file_xls
+[2022-05-22 02:23:29,355] {task_command.py:369} INFO - Running <TaskInstance: Teste_ETL_Raízen.download_file_xls manual__2022-05-22T02:23:27.159628+00:00 [running]> on host ddb719a04e47
+[2022-05-22 02:23:30,418] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Teste_ETL_Raízen
+AIRFLOW_CTX_TASK_ID=download_file_xls
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-22T02:23:27.159628+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-22T02:23:27.159628+00:00
+[2022-05-22 02:23:30,634] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ETL_Raizen.py", line 21, in download_file_xls
+    request.urlretrieve(file_url , file)
+  File "/usr/local/lib/python3.7/urllib/request.py", line 257, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: './raw_data/vendas-combustiveis-m3.xls'
+[2022-05-22 02:23:30,655] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=Teste_ETL_Raízen, task_id=download_file_xls, execution_date=20220522T022327, start_date=20220522T022329, end_date=20220522T022330
+[2022-05-22 02:23:30,681] {standard_task_runner.py:97} ERROR - Failed to execute job 29 for task download_file_xls ([Errno 2] No such file or directory: './raw_data/vendas-combustiveis-m3.xls'; 161)
+[2022-05-22 02:23:30,730] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-05-22 02:23:30,773] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

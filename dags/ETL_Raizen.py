@@ -1,6 +1,5 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-#from airflow.operators.bash import BashOperator 
 import pandas as pd
 from openpyxl import load_workbook
 from openpyxl import Workbook
@@ -8,16 +7,24 @@ import os
 import subprocess
 import datetime
 from datetime import datetime
-import locale
 
-locale.setlocale(locale.LC_ALL, 'pt_PT.UTF-8')
+#locale.setlocale(locale.LC_ALL, 'pt_PT.UTF-8')
+
+#Download of the raw_data
+
+def download_file_xls():
+    os.system('mkdir raw_data')
+    from urllib import request
+    file_url = 'https://github.com/raizen-analytics/data-engineering-test/raw/master/assets/vendas-combustiveis-m3.xls'
+    file = './raw_data/vendas-combustiveis-m3.xls'
+    request.urlretrieve(file_url , file)
 
 #convert file xls in xlsx
 
 def convert_xls_in_xlsx():
-    os.system('''libreoffice --headless --invisible --convert-to xlsx ~/workspace/desafio_raizen/raw_data/vendas-combustiveis-m3.xls --outdir ~/workspace/desafio_raizen/raw_data/''')
+    os.system('''libreoffice --headless --invisible --convert-to xlsx ./raw_data/vendas-combustiveis-m3.xls --outdir ./raw_data/''')
 
-path = "/home/netomadazio/workspace/desafio_raizen/raw_data/vendas-combustiveis-m3.xlsx"
+path = "./raw_data/vendas-combustiveis-m3.xlsx"
 sheets = {"DPCache_m3": "oil_derivative", "DPCache_m3_2": "diesel"}
 
 #extract tables oil_derivative and diesel
@@ -40,7 +47,9 @@ def extract_tables_file():
 
 #Transform DataFrame and Saving in parquet format
 
-def transform_n_load_dataframe():
+os.system('pip install fastparquet')
+
+def transform_n_load_datas():
     for i in sheets:
         
         # read raw data
@@ -106,9 +115,14 @@ def transform_n_load_dataframe():
 with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
            schedule_interval = '30 * * * *' , catchup = False) as dag:
 
+    download_file_xls = PythonOperator(
+         task_id = 'download_file_xls',
+         python_callable = download_file_xls       
+    )
+    
     convert_xls_in_xlsx = PythonOperator(
          task_id = 'convert_xls_in_xlsx',
-         python_callable = processo_ETL        
+         python_callable = convert_xls_in_xlsx       
     )
 
     extract_tables_file = PythonOperator(
@@ -116,10 +130,10 @@ with DAG('Teste_ETL_Raízen', start_date = datetime(2022,5,18),
          python_callable = extract_tables_file 
     )
 
-    transform_n_load_dataframe = PythonOperator(
-         task_id = 'convert_xls_in_xlsx',
-         python_callable = transform_n_load_dataframe
+    transform_n_load_datas = PythonOperator(
+         task_id = 'transform_n_load_datas',
+         python_callable = transform_n_load_datas
     )
 
-    convert_xls_in_xlsx >> extract_tables_file >> transform_n_load_dataframe
+    download_file_xls >> convert_xls_in_xlsx >> extract_tables_file >> transform_n_load_datas
 
