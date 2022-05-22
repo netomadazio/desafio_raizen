@@ -1,0 +1,65 @@
+[2022-05-22 03:31:01,857] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Teste_ETL_Raízen.extract_tables_file manual__2022-05-22T02:35:48.168632+00:00 [queued]>
+[2022-05-22 03:31:01,866] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Teste_ETL_Raízen.extract_tables_file manual__2022-05-22T02:35:48.168632+00:00 [queued]>
+[2022-05-22 03:31:01,866] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 03:31:01,867] {taskinstance.py:1357} INFO - Starting attempt 5 of 5
+[2022-05-22 03:31:01,867] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 03:31:01,879] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extract_tables_file> on 2022-05-22 02:35:48.168632+00:00
+[2022-05-22 03:31:01,884] {standard_task_runner.py:52} INFO - Started process 814 to run task
+[2022-05-22 03:31:01,886] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Teste_ETL_Raízen', 'extract_tables_file', 'manual__2022-05-22T02:35:48.168632+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Raizen.py', '--cfg-path', '/tmp/tmpiwwxl6n3', '--error-file', '/tmp/tmp7xp3sp5h']
+[2022-05-22 03:31:01,887] {standard_task_runner.py:80} INFO - Job 72: Subtask extract_tables_file
+[2022-05-22 03:31:01,928] {task_command.py:369} INFO - Running <TaskInstance: Teste_ETL_Raízen.extract_tables_file manual__2022-05-22T02:35:48.168632+00:00 [running]> on host 541443bb6989
+[2022-05-22 03:31:01,993] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Teste_ETL_Raízen
+AIRFLOW_CTX_TASK_ID=extract_tables_file
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-22T02:35:48.168632+00:00
+AIRFLOW_CTX_TRY_NUMBER=5
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-22T02:35:48.168632+00:00
+[2022-05-22 03:32:53,524] {local_task_job.py:221} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2022-05-22 03:32:53,532] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 814. PIDs of all processes in the group: [814]
+[2022-05-22 03:32:53,532] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 814
+[2022-05-22 03:32:53,532] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-05-22 03:32:53,585] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ETL_Raizen.py", line 46, in extract_tables_file
+    extract_xlsx_sheet(path, i , f"{sheets[i]}.xlsx")
+  File "/opt/airflow/dags/ETL_Raizen.py", line 35, in extract_xlsx_sheet
+    wb = load_workbook(file_location)
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/reader/excel.py", line 317, in load_workbook
+    reader.read()
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/reader/excel.py", line 282, in read
+    self.read_worksheets()
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/reader/excel.py", line 269, in read_worksheets
+    pivot.cache = self.parser.pivot_caches[pivot.cacheId]
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/reader/workbook.py", line 121, in pivot_caches
+    cache = get_rel(self.archive, self.rels, id=c.id, cls=CacheDefinition)
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/packaging/relationship.py", line 168, in get_rel
+    obj = cls.from_tree(tree)
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/descriptors/serialisable.py", line 83, in from_tree
+    obj = desc.from_tree(el)
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/descriptors/sequence.py", line 85, in from_tree
+    return [self.expected_type.from_tree(el) for el in node]
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/descriptors/sequence.py", line 85, in <listcomp>
+    return [self.expected_type.from_tree(el) for el in node]
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/descriptors/serialisable.py", line 87, in from_tree
+    obj = desc.expected_type.from_tree(el)
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/descriptors/serialisable.py", line 87, in from_tree
+    obj = desc.expected_type.from_tree(el)
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/descriptors/serialisable.py", line 103, in from_tree
+    return cls(**attrib)
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/pivot/fields.py", line 152, in __init__
+    self._in = _in
+  File "/home/airflow/.local/lib/python3.7/site-packages/openpyxl/descriptors/base.py", line 68, in __set__
+    super(Convertible, self).__set__(instance, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1543, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-05-22 03:32:53,628] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Teste_ETL_Raízen, task_id=extract_tables_file, execution_date=20220522T023548, start_date=20220522T033101, end_date=20220522T033253
+[2022-05-22 03:32:53,683] {standard_task_runner.py:97} ERROR - Failed to execute job 72 for task extract_tables_file (Task received SIGTERM signal; 814)
+[2022-05-22 03:32:53,790] {process_utils.py:75} INFO - Process psutil.Process(pid=814, status='terminated', exitcode=1, started='03:31:01') (814) terminated with exit code 1
