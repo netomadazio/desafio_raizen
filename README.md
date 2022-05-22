@@ -25,7 +25,7 @@ O arquivo em questão possuem algumas pivot tables, onde é necessária a extra�
 - Vendas de combustíveis derivados de petróleo por UF e produto;
 - Vendas de diesel por UF e tipo;
 
-Os dados devem ser armazenados nos formatos a seguir
+Os dados devem ser armazenados nos formatos a seguir:
 
 | Column       | Type        |
 | ------------ | ----------- |
