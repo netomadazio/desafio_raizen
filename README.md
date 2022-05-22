@@ -16,6 +16,7 @@
 * [Pontos de melhorias](#pontos-de-melhorias)
 * [Execução do projeto](#execução-do-projeto)
 * [Conclusão](#conclusão)
+* [Autor](#autor)
 
 ## Descrição do Projeto
 
