@@ -52,7 +52,7 @@ Obs: (Parte da descrição retirada do próprio arquivo da atividade).
 ## Resolução
 
 O primeiro desafio encontrado, foi como realizar a extração dos dados da "raw_data"(base de dados brutos), visto que não era possível em seu formato encontrado. Através de algumas pesquisas, pode-se descobrir que fazendo a conversão da tabela do formato "xls" para "xlsx" poderia-se enfim extrair as tabelas necessárias para posterior manipulação dos arquivos, sendo assim criado dois arquivos distintos xlsx, "oil_deritavite.xlsx" e "diesel.xlsx".
-Fez-se então a leitura desses arquivos, adicionando-os em dataframe's para que fosse possível fazer as manipulações dos dados necessárias(ressaltando que o processo foi realizado em duas etapas, primeiro a leitura e processamento de um arquivo e posteriormente do outro). Após realizar-se as tratativas necessárias e os dados estarem nos formatos solicitados, verificou-se a consistência desses dados em relação a "raw_data", concluindo que o processo foi realizado de forma correta, então optou-se por gravar esses dados em formato de parquet, sendo particionado por "product" e "year_month", concluido dessa forma a primeira parte do desenvolvimento.
+Fez-se então a leitura desses arquivos, adicionando-os em dataframe's para transformações dos dados necessárias(ressaltando que o processo foi realizado em duas etapas, primeiro a leitura e processamento de um arquivo e posteriormente do outro). Após realizar-se as tratativas e os dados estarem nos formatos solicitados, verificou-se a consistência desses dados em relação a "raw_data", concluindo que o processo foi realizado de forma correta, então optou-se por gravar esses dados no formato parquet, sendo particionado por "product" e "year_month", concluindo dessa forma a primeira parte do desenvolvimento.
 
 O segundo passo no desenvolvimento do projeto, foi em qual plataforma fazer o gereciamento do fluxo de trabalho e como isso seria realizado. Levantados esses pontos, optou-se pela utilização da ferramenta "Airflow", sendo utilizada através do docker-compose pela praticidade que isso traria ao desenvolvimento da solução, assim como também para execução. A plataforma do airflow foi iniciada através de uma imagem criada dentro de um arquivo .yaml do docker-compose, sendo também criado um Dockerfile para instalação das configurações necessárias para execução da aplicação conteinerizada. 
 No ambiente de desenvolvimento, criou-se as DAG's para orquestração do fluxo de trabalho, sendo estas vistas no ambiente do airflow através do localhost da porta 8080.
@@ -60,8 +60,8 @@ Com isso conclui-se a etapa de controle do fluxo de trabalho através de um ambi
 
 ## Pontos de melhorias
 
-Existem alguns pontos que poderiam vir a ser melhorados no desenvolvimento do projeto, dentre eles podemos citar uma melhor performance no fluxo de trabalho, principalmete na etapa de extração dos dados das duas tabelas solicitadas, utilizou-se de "ferramentas" não tão performáticas no processo, sendo possível uma melhor pesquisa por outras formas de se processar essa tarefa.
-Outro ponto que vale ressaltar, seria alocação desses dados processados em um banco de dados para consultas, sendo possível também um backup para evitar o reprocesso, como em um ambiente produtivo é default a replicação por três(3) no HDFS.
+Pode-se destacar alguns principais pontos que poderiam vir a ser melhorados no desenvolvimento do projeto, dentre eles podemos citar uma melhor performance no fluxo de trabalho, principalmente na etapa de extração dos dados das duas tabelas solicitadas, onde utilizou-se de "ferramentas" não tão performáticas no processo, sendo possível uma melhor pesquisa por outras formas de se processar essa tarefa.
+Outro ponto que vale ressaltar, seria alocação desses dados processados no ambiente conteinerizado em um banco de dados para consultas, sendo possível também um backup para evitar o reprocesso em caso de perda de informação. 
 
 ## Execução do projeto 
 📁 
@@ -92,7 +92,7 @@ Outro ponto que vale ressaltar, seria alocação desses dados processados em um 
 
 ## Conclusão
 
-Através do trabalho proposto pode-se desenvolver uma pipeline ETL, utilizando-se de algumas ferramentas disponíveis no mercado, ficando como observação a possibilidade de realizar melhorias nas etapas executadas, construindo um melhor desenvolvimento, execução e entrega.
+Através do trabalho proposto, pode-se desenvolver uma pipeline ETL utilizando-se de algumas ferramentas disponíveis no mercado, ficando como observação a possibilidade de realizar melhorias nas etapas executadas, construindo um melhor desenvolvimento, execução e entrega.
 Agradeço desde já pela oportunidade e sigo a disposição para quaisquer questionamentos.
 Muito obrigado, Raízen.
 
