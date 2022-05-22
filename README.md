@@ -1,6 +1,6 @@
 <h1 align="center"> Desafio Raízen </h1>
 
-## Repositório destinado a construção do exercício proposto, como forma de avaliação da empresa Raízen
+## Repositório destinado a construção do exercício proposto como forma de avaliação da empresa Raízen
 
 <h4 align="center"> 
 	🚧  Raízen Project 🚀 Concluído com pontos de melhorias..  🚧
