@@ -100,7 +100,7 @@ Atenciosamente,
 
 ### Autor
 
-Irineu Madazio Neto
+Irineu Madazio Neto,
 Engenheiro de Controle e Automação 
 apaixonado pela área de Engenharia de Dados.
 
