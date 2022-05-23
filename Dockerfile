@@ -11,11 +11,8 @@ RUN apt-get update \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
-RUN pip install fastparquet
 #create a path for raw_data and file converted
 USER airflow
-RUN cd /opt/aiflow \
-  && mkdir raw_data
 
 #installing necessary libraries
 RUN pip install openpyxl 
