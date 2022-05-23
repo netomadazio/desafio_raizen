@@ -11,7 +11,6 @@ RUN apt-get update \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
-#create a path for raw_data and file converted
 USER airflow
 
 #installing necessary libraries
